@@ -12,7 +12,7 @@ import pytz
 # Set up logging
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = os.enveron['discordtoken']
+TOKEN = os.environ['discordtoken']
 CHANNEL_ID = 1304802520677355673
 URL = 'https://qa-u16-tor6.netsapiens.com/server-versions.html'
 
